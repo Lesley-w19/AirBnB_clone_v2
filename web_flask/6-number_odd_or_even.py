@@ -85,9 +85,17 @@ def odd_or_even(n):
     """
     if type(n) == int:
         if n % 2 == 0:
-            return render_template('6-number_odd_or_even.html', num=n, val='even')
+            return render_template(
+                '6-number_odd_or_even.html',
+                num=n,
+                val='even'
+            )
         else:
-            return render_template('6-number_odd_or_even.html', num=n, val='odd')
+            return render_template(
+                '6-number_odd_or_even.html',
+                num=n,
+                val='odd'
+            )
 
 
 if __name__ == '__main__':

@@ -8,3 +8,4 @@
 2. C is fun!
 3. Python is cool!
 4. Is it a number?
+5. Number template

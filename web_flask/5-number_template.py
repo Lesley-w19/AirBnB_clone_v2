@@ -62,6 +62,7 @@ def number(n):
     if type(n) == int:
         return f'{n} is a number'
 
+
 app.route('/number_template/<int:n>', strict_slashes=False)
 
 
